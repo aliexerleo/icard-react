@@ -34,7 +34,7 @@ export function ClientLayout(props) {
       <Container className="client-layout">
         <div className="client-layout__header">
           <Link to={`/client/${tableNumber}`}>
-            <h1>iCard</h1>
+            <h1>Terraza 96</h1>
           </Link>
           <span>Mesa {tableNumber}</span>
 
