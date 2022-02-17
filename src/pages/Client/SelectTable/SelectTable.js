@@ -2,6 +2,9 @@ import React, { useState } from "react";
 import { Form, Button } from "semantic-ui-react";
 import { useTable } from "../../../hooks";
 import "./SelectTable.scss";
+import Terraza from "./terraza.png";
+
+
 
 export function SelectTable(props) {
   const { history } = props;
@@ -23,6 +26,8 @@ export function SelectTable(props) {
   return (
     <div className="select-table">
       <div className="select-table__content">
+      <img className="mx-auto mov" src={Terraza} alt="..." width="65%" height="55%"/>
+
         <h1>Bienvenido a  La Terraza 96</h1>
         <h2>Introduce tu numero de mesa</h2>
 
